@@ -7,7 +7,7 @@ programs are often identified as binary files and given a file name extension of
 
 Program software compression
 
-AES with paq9a compression
+AES with bz2 compression
 
 Python software
 
