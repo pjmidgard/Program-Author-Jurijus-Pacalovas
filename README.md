@@ -9,6 +9,21 @@ Program software compression
 
 AES with bz2 compression
 
+                if block<=7:
+                    if e4=="1":
+                        sda3=sda3+"1"
+                        block=0
+                    if e4=="0":
+                        sda3=sda3+"0"
+
+                if block==8:
+                    if e4=="1":
+                        sda3=sda3+"0"
+                        block=0
+                    if e4=="0":
+                        sda3=sda3+"1"
+                        block=0
+
 Python software
 
 Jurijus Pacalovas
