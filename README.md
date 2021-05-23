@@ -24,11 +24,11 @@ AES with bz2 compression
                         sda3=sda3+"1"
                         block=0
                         
-                        ##...
-                        import bz2
-                            jl = bz2.compress(jl)
-                        ##...
-                        data = bz2.compress(data)
+                 ##...
+                 import bz2
+                     jl = bz2.compress(jl)
+                 ##...
+                 data = bz2.compress(data)
                         
                        
 
