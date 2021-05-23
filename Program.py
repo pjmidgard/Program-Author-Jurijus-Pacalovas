@@ -100,7 +100,7 @@ if namez=="ul":
                     sda=sda+sda2
 
                     if countraz==1:
-                        sda2="000000000011001100000000"+sda
+                        sda2=sda
             
                     n = int(sda2, 2)
                 
@@ -118,9 +118,10 @@ if namez=="ul":
                 
                     
                     if countraz==1:
+
+                        import bz2
                         
-                        import paq
-                        data  = paq.decompress(data)
+                        data = bz2.decompress(data)
 
                         lenf5=len(data)
 
@@ -380,13 +381,12 @@ if namez=="cl":
                     if assxw==10:
                         assx=10
                         if assx==10:
-                            import paq
-                    
-                            jl = paq.compress(jl)
+                            import bz2
+                            jl = bz2.compress(jl)
 
                             sssssw=len(jl)
                     
-                            jl = jl[3:]
+                            
                             f2.write(jl)
                             x2 = time()
                             x3=x2-x
