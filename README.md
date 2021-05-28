@@ -7,7 +7,7 @@ programs are often identified as binary files and given a file name extension of
 
 Program software compression
 
-AES with bz2 compression
+AES with paq8px v 75 compression
 
                 if block<=7:
                     if e4=="1":
@@ -32,6 +32,6 @@ AES with bz2 compression
                         
                        
 
-Python software
+Python 3.9.5 software
 
 Jurijus Pacalovas
