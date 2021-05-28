@@ -35,3 +35,5 @@ AES with paq8px v 75 compression
 Python 3.9.5 software
 
 Jurijus Pacalovas
+
+4 000 000 Euro 💶
