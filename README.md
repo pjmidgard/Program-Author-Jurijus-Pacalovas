@@ -8,7 +8,7 @@ programs are often identified as binary files and given a file name extension of
 Program software compression
 C++
 
-Peazip
+Peazip use
 
 AES with paq8px v 77 compression
 
