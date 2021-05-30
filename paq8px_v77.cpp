@@ -3,7 +3,7 @@
     Copyright (C) 2008 Matt Mahoney, Serge Osnach, Alexander Ratushnyak,
     Bill Pettis, Przemyslaw Skibinski, Matthew Fite, wowtiger, Andrew Paterson,
     Jan Ondrus, Andreas Morphis, Pavel L. Holoborodko, Kaido Orav, Simon Berger,
-    Neill Corlett
+    Neill Corlett, Jurijus Pacalovas
 
     LICENSE
 
