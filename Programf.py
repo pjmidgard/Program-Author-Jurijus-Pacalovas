@@ -152,7 +152,6 @@ if namez=="ul":
                 if block<=7:
                     if e4=="1":
                         sda3=sda3+"1"
-                        block=0
                     if e4=="0":
                         sda3=sda3+"0"
 
@@ -317,7 +316,6 @@ if namez=="cl":
                 if block<=7:
                     if e4=="1":
                         sda3=sda3+"1"
-                        block=0
                     if e4=="0":
                         sda3=sda3+"0"
 
