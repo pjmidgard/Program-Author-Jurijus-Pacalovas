@@ -26,15 +26,7 @@ AES with paq8px v 77 compression
                     if e4=="0":
                         sda3=sda3+"1"
                         block=0
-                        
-                 ##...
-                 import bz2
-                     jl = bz2.compress(jl)
-                 ##...
-                 data = bz2.compress(data)
-                        
-                       
-
+            
 Python 3.9.5 software
 
 Jurijus Pacalovas
