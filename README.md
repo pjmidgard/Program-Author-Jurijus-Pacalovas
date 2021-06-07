@@ -15,7 +15,7 @@ AES with paq8px v 77 compression
                 if block<=7:
                     if e4=="1":
                         sda3=sda3+"1"
-                        block=0
+                       
                     if e4=="0":
                         sda3=sda3+"0"
 
